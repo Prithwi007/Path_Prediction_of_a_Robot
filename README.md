@@ -11,11 +11,12 @@ The inherent properties of Bezier curves make them suitable for path prediction 
 
 The Bezier curve formula is given by:
 
-![Bezier Curve Formula](https://render.githubusercontent.com/render/math?math=P(t)%20%3D%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20B_i^n(t)%20%5Ccdot%20P_t) .... (i)
+\[ P(t) = \sum_{i=0}^{n} B_i^n(t) \cdot P_t \] ... (i)
 
-where:
+where
 
-![Binomial Coefficient](https://render.githubusercontent.com/render/math?math=B_i^n(t)%20%3D%20%5Cbinom%7Bn%7D%7Bi%7D%20%5Ccdot%20t%5Ei%20%5Ccdot%20(1-t)%5E%7Bn-i%7D) .... (ii)
+\[ B_i^n(t) = \binom{n}{i} \cdot t^i \cdot (1-t)^{n-i} \] ... (ii)
+
 
 ![image](https://github.com/Prithwi007/Path_Prediction_of_a_Robot/assets/43519651/7def1460-1c37-4183-8f60-19e060c07878)
 
